@@ -1,0 +1,35 @@
+header{
+    background-color: #D8C8C8;
+ 
+  
+
+}
+.logo{
+    width:600px ;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+   
+}
+nav{
+
+    height: 300px;
+   display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr ;
+}
+.cultura{
+    grid-column:2/3 ;
+    grid-row: 2/3;
+}
+.pila{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.ciber{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
