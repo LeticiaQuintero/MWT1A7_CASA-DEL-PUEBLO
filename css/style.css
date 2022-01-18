@@ -1,35 +1,74 @@
 header{
-    background-color: #D8C8C8;
- 
+    background-color: #d9dddd;
   
-
 }
 .logo{
-    width:600px ;
-    height: 600px;
+    width:800px ;
+    height: 800px;
     border: 2px solid black;
     border-radius: 50%;
     position: relative;
-    top: 100px;
-    left: 100px;
-   
+    top: 80px;
+    left: 80px;
 }
 nav{
-
-    height: 300px;
-   display: grid;
+ 
+    height: 600px;
+    display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr  ;
+    
+    
 }
 .cultura{
+    color: whitesmoke;
+    text-shadow: 0px px 5px rgb(85, 19, 19);
+    background-color: #27E87A;
+    font-size: 140px;
+    font-family: 'Shadows Into Light', cursive;
+    clip-path: polygon(16% 0, 100% 0, 100% 86%, 34% 86%);
     grid-column:2/3 ;
     grid-row: 2/3;
+    text-align: right;
+    
 }
+.menu__enlace-movimiento{
+    position: relative;
+    right: 30px;
+}
+
 .pila{
+    color: whitesmoke;
+    text-shadow: 0px px 5px rgb(85, 19, 19);
+    background-color: #27E87A;
+    font-size: 140px;
+    font-family: 'Shadows Into Light', cursive;
+    clip-path: polygon(0 6%, 83% 6%, 100% 89%, 0 89%);
+    text-align: left;
     grid-column: 1/2;
-    grid-row: 3/4;
+    grid-row: 2/3;
 }
 .ciber{
+    color: whitesmoke;
+    text-shadow: 0px px 5px rgb(85, 19, 19);
+    background-color: #27E87A;
+    font-size: 140px;
+    font-family: 'Shadows Into Light', cursive;
+    clip-path: polygon(0 9%, 100% 9%, 100% 89%, 16% 89%);
+    text-align: right;
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 1/2;
+}
+.menu__enlace{
+    color: whitesmoke;
+    text-shadow: 0px px 5px rgb(207, 35, 35);
+}
+main{
+    height: 100%;
+    background-image: linear-gradient(rgb(211, 207, 207),rgb(87, 21, 21));
+
+}
+.main__lista{
+    height: 80px;
+    
 }
