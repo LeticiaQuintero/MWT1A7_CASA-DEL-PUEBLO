@@ -1,63 +1,104 @@
-header{
-    background-color: #d9dddd;
-  
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    background-color: #d6f3e3;
+     
 }
+
 .logo{
-    width:800px ;
-    height: 800px;
+    width:300px ;
+    height: 300px;
+    position: absolute; 
+    top: 25%;
+    left: 794px; 
+    z-index:10 ;
+}
+
+.logo img{
+    width: 100%;
     border: 2px solid black;
     border-radius: 50%;
-    position: relative;
-    top: 80px;
-    left: 80px;
 }
-nav{
- 
-    height: 600px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 1fr 1fr  ;
-    
-    
+
+.cont{
+    background-color: #177e43;
+}
+
+.cont-auto{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: relative;
+    z-index: 5;
+}
+.cont-cult{
+     grid-column: 1/2;
+    grid-row: 1/2;
+    position: relative;
+
+}
+.cont-pil{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    position: relative;
+}
+
+.cont-cib{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    position: relative;
+
 }
 .cultura{
     color: whitesmoke;
-    text-shadow: 0px px 5px rgb(85, 19, 19);
-    background-color: #27E87A;
+    text-shadow:  0px 0px 5px rgb(61, 243, 158);
+    background-color: #177e43;
     font-size: 140px;
     font-family: 'Shadows Into Light', cursive;
-    clip-path: polygon(16% 0, 100% 0, 100% 86%, 34% 86%);
-    grid-column:2/3 ;
-    grid-row: 2/3;
-    text-align: right;
-    
+    clip-path: polygon(0% 0%, 100% 0, 100% 50%, 75% 100%, 0% 100%);
+    text-align: left;
 }
 .menu__enlace-movimiento{
     position: relative;
     right: 30px;
 }
+.autonomia{
+    color: whitesmoke;
+    text-shadow: 0px 0px 5px rgb(61, 243, 158);
+    background-color: #177e43;
+    font-size: 140px;
+    font-family: 'Shadows Into Light', cursive;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 100% 100%, 0% 100%);
+    text-align: left;
+  
+}
 
 .pila{
     color: whitesmoke;
-    text-shadow: 0px px 5px rgb(85, 19, 19);
-    background-color: #27E87A;
+    text-shadow:  0px 0px 5px rgb(61, 243, 158);
+    background-color:#177e43;
     font-size: 140px;
     font-family: 'Shadows Into Light', cursive;
-    clip-path: polygon(0 6%, 83% 6%, 100% 89%, 0 89%);
-    text-align: left;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    text-align: right;
+   
+  
 }
 .ciber{
     color: whitesmoke;
-    text-shadow: 0px px 5px rgb(85, 19, 19);
-    background-color: #27E87A;
+    text-shadow:  0px 0px 5px rgb(61, 243, 158);
+    background-color: #177e43;
     font-size: 140px;
     font-family: 'Shadows Into Light', cursive;
     clip-path: polygon(0 9%, 100% 9%, 100% 89%, 16% 89%);
     text-align: right;
-    grid-column: 2/3;
-    grid-row: 1/2;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0 100%, 0% 50%);
+    text-align: right;
+ 
+    
+
+    
 }
 .menu__enlace{
     color: whitesmoke;
