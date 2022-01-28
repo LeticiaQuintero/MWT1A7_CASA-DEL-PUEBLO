@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Pacifico&family=Permanent+Marker&display=swap');
-
 nav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -59,33 +57,7 @@ nav div div{
     z-index: 2;
 }
 body{
-    display: grid;
-    background-color: lightblue;
-}
-.main__lista{
-    background-color: lightblue;
-    color:rgb(30, 74, 92);
-    font-family: 'Permanent Marker', cursive;
-    font-size: 40px;
-    text-align: center;
-    padding: 2em;
-}
-.main__lista-imagen{
-    display: block;
-}
-.main__lista-lista{
-
-    background-image: linear-gradient(rgb(156, 153, 153), rgb(207, 203, 203));
-    color: rgb(55, 2, 85);
-    text-shadow: 1px 1px 6px rgb(15, 124, 143);
-    font-family: 'Architects Daughter', cursive;
-    text-align: center;
-    padding: 1em;
-    font-size: 26px
-}
-main ul li{
-    list-style: none;
-    font-family: 'Sedgwick Ave', cursive;
+    background-color: rgb(227, 198, 253);
 }
 footer{
     background-color: rgb(154, 116, 172);
@@ -136,4 +108,4 @@ main div img{
 }
 .logodf{
     height: 80px;
-}
+} 
